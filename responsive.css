@@ -1,0 +1,30 @@
+/* Home section start */
+@media (max-width:850px){
+    .home {
+        background-position: 50%;
+        height: 100vh;
+    }
+}
+@media (max-width:450px) {
+    .home .content h5 {
+        font-size: 25px;
+    }
+    .home .content h1 {
+        font-size: 38px;
+    }
+    .home .content p {
+        font-size: 13px;
+    }
+}
+/* Home section end */
+
+/* Section book start */
+@media (max-width: 765px) {
+    .book {
+        padding: 0;
+    }
+    .main-text {
+        padding: 20px;
+    }
+}
+/* Section book end */

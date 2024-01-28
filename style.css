@@ -1,0 +1,329 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: "lato", sans-serif;
+}
+
+/* navbar start */
+
+.navbar {
+    background-color: rgb(252, 248, 248);
+}
+#logo {
+    font-size: 36px;
+    font-weight: 700;
+    color: black;
+    text-shadow: 0px 1px 1px black;
+    margin-bottom: 5px;
+}
+#logo span {
+    color: rgb(255, 166, 0);
+}
+.navbar-toggler span {
+    color: rgb(255, 166, 0);
+    border: none !important;
+    border-radius: none;
+}
+.nav-item .nav-link {
+    font-size: 16px;
+    font-weight: 500;
+    color: black;
+    margin-left: 20px;
+    letter-spacing: 1px;
+    border-radius: 5px;
+    transition: 0.5s ease;
+    padding-left: 20px;
+}
+.nav-item .nav-link:hover {
+    background: rgb(255, 166, 0);
+    color: white;
+}
+.navbar form button {
+    background-color: rgb(255, 166, 0);
+    color: white;
+    border: none;
+}
+/* navbar end */
+
+
+/*home section start */
+.home {
+    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.2)), url(./images/main\ image.avif);
+    width: 100%;
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.home .content {
+    text-align: center;
+    padding-top: 200px;
+} 
+.content h5 {
+    font-weight: 500;
+    font-size: 36px;
+    color: white;
+    text-shadow: 0px 1px 1px black;
+}
+.content h1 {
+    font-size: 70px;
+    font-weight: 550;
+    color: white;
+    text-shadow: 0px 1px 1px black;
+    margin-top: 5px;
+}
+.changecontent::after{
+    content: "";
+    color: orange;
+    text-shadow: 0px 1px 1px black;
+    animation: changetxt 10s infinite linear;
+}
+@keyframes changetxt {
+    0%{content: "India";}
+    10%{content: "Lakshwadeep";}
+    20%{content: "France";}
+    30%{content: "Japan";}
+    40%{content: "Spain";}
+    50%{content: "Italy";}
+    60%{content: "United States";}
+    70%{content: "Turkey";}
+    80%{content: "Dubai";}
+    90%{content: "Mexico";}
+    100%{content: "Germany";}
+}
+.content p {
+    color: white;
+    font-size: 15px;
+    font-weight: 600px;
+    text-shadow: 0px 1px 1px black;
+    margin-bottom: 30px;
+    margin-top: 5px;
+}
+.content a {
+    padding: 10px;
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    letter-spacing: 2px;
+    border-radius: 5px;
+    font-weight: 550;
+    transition: 0.5s;
+}
+.content a:hover{
+    background-color: orange;
+    color: white;
+}
+/* home section end  */
+
+/* section book start */
+.book {
+    background: whitesmoke;
+    padding: 50px;
+}
+.main-text h1 {
+    text-align: center;
+    font-size: 600;
+    text-shadow: 0px 1px 1px black;
+}
+.main-text h1 span {
+    color: orange;
+}
+.book .card {
+    border-radius: 10px;
+    box-shadow: 0px 5px 5px -6px black;
+}
+.book .row {
+    margin-top: 30px;
+}
+.book form input {
+    padding: 10px;
+    color: black;
+    border-radius: 10px;
+    font-size: 15px;
+    border: none;
+    outline: none;
+    box-shadow: 0px 5px 5px -6px black;
+}
+.book form textarea {
+    border: none;
+    resize: none;
+    height: 200px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 5px -6px black;
+}
+.book .submit {
+    background-color: orange;
+    color: white;
+    width: 160px;
+    font-size: 16px;
+    font-weight: 550;
+    margin-top: 10px;
+    transition: 0.5s;
+}
+.book .submit:hover {
+    width: 170px;
+}
+/* section book end */
+
+/* section packages start */
+.main-txt h1 {
+    text-align: center;
+    margin-top: 30px;
+    font-weight: 600;
+    text-shadow: 0px 1px 1px black;
+}
+.main-txt h1 span {
+    color: orange;
+}
+.packages .card {
+    border-radius: 5px;
+    border: none;
+    box-shadow: rgba(0,0,0,0.1) 0px 4px 12px;
+    margin-top: 20px;
+}
+.packages .card img {
+    border-radius: 5px;
+}
+.packages .card .card-body {
+    background: transparent;
+}
+.packages .card .card-body h3 {
+    font-size: 25px;
+    font-weight: 600;
+}
+.packages .card .card-body p {
+    font-size: 15px;
+}
+.checked {
+    color: orange;
+}
+.start i {
+    font-size: 15px;
+}
+.packages .card .card-body h6 {
+    font-size: 20px;
+    margin-top: 20px;
+}
+.packages .card .card-body a {
+    padding: 10px;
+    text-decoration: none;
+    background: orange;
+    color: white;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+.packages img {
+    height: 200px;
+}
+/* section packages end */
+
+/* section services start */
+.services{
+    margin-top: 50px;
+    background: whitesmoke;
+}
+.services .card {
+    border: none;
+    box-shadow: rgba(0,0,0,0.1) 0px 4px 12px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+.services .card i {
+    font-size: 80px;
+    color: #fa5500;
+    text-align: center;
+    margin-top: 20px;
+}
+.services .card .card-body h3 {
+    font-weight: 600;
+}
+.services .card .card-body{
+    text-align: center;
+}
+/* section services end */
+
+/* section gallery start */
+
+.gallery {
+    margin-top: 50px;
+}
+.gallery .card {
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: rgba(0,0,0,0.1) 0px 4px 12px black;
+    border: none;
+    margin-top: 20px;
+}
+.gallery .card img {
+    border-radius: 10px;
+    transition: 0.5s;
+}
+.gallery .card img:hover {
+    transform: scale(1.1);
+}
+
+/* section gallert end */
+
+/* about start */
+.about {
+    padding: 0;
+    margin-top: 50px;
+    background-color: whitesmoke;
+}
+.about .card img{
+    border-radius: 10px;
+    border: none;
+}
+.about h2 {
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+#about-btn {
+    width: 150px;
+    background-color: orange;
+    color: white;
+    height: 38px;
+    border: none;
+    border-radius: 5px;
+    font-weight: 550;
+    letter-spacing: 2px;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+#about-btn:hover {
+    width: 170px;
+}
+/* about end */
+
+/* footer */
+#footer {
+    width: 100%;
+    margin-top: 150px;
+    text-align: center;
+    background: whitesmoke;
+}
+#footer h1 {
+    font-weight: 600;
+    padding-top: 30px; 
+}
+#footer h1 span {
+    color: orange;
+}
+.social-links i{
+    padding: 10px;
+    border-radius: 5px;
+    background: black;
+    color: white;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    font-size: 20px;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+.social-links:hover {
+    background: orange;
+    padding-top: 10px;
+}
+/* footer */
